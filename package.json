@@ -1,6 +1,6 @@
 {
   "name": "@kojikanao/card",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A personal card for Koji Kanao (@koji)",
   "main": "./bin/card.js",
   "bin": {
