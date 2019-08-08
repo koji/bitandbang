@@ -24,7 +24,7 @@ const data = {
   github: chalk.gray('https://github.com/') + chalk.green('koji'),
   linkedin: chalk.gray('https://linkedin.com/in/') + chalk.blue('kojikanao'),
   web: chalk.cyan('https://koji.github.io/about.me/'),
-  npx: chalk.red('npx') + ' ' + chalk.white('@koji/card  (via GitHub Package Registry)'),
+  npx: chalk.red('npx') + ' ' + chalk.white('@kojikanao/card  (via GitHub Package Registry)'),
   labelWork: chalk.white.bold('       Work:'),
   labelPypi: chalk.white.bold('       pypi:'),
   labelTwitter: chalk.white.bold('    Twitter:'),
