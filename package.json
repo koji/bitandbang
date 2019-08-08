@@ -1,16 +1,15 @@
 {
-  "name": "@bnb/card",
-  "version": "1.6.0",
-  "description": "A personal card for Tierney Cyren (@bitandbang)",
-  "main": "/bin/card.js",
+  "name": "@koji/card",
+  "version": "0.1.0",
+  "description": "A personal card for Koji Kanao (@koji)",
+  "main": "./bin/card.js",
   "bin": {
     "bitandbang": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bnb/bitandbang.git"
+    "url": "git+https://github.com/koji/bitandbang"
   },
-  "homepage": "https://bnb.im",
   "scripts": {
     "prepublish": "npm run build",
     "build": "node build.js",
