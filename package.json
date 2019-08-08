@@ -1,17 +1,20 @@
 {
-  "name": "@koji/card",
-  "version": "0.1.0",
+  "name": "@kojikanao/card",
+  "version": "0.1.1",
   "description": "A personal card for Koji Kanao (@koji)",
   "main": "./bin/card.js",
   "bin": {
-    "bitandbang": "./bin/card.js"
+    "koji": "./bin/card.js"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/koji/bitandbang"
+    "url": "https://github.com/koji/bitandbang"
+  },
+  "engines": {
+    "node": ">=8"
   },
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "build": "node build.js",
     "dev": "npm run build && node ./bin/card.js",
     "lint": "standard",
@@ -25,7 +28,7 @@
     "npx card",
     "business card"
   ],
-  "author": "Tierney Cyren <hello@bnb.im> (http://bnb.im)",
+  "author": "koji kanao",
   "license": "MIT",
   "files": [
     "bin/card.js",
@@ -36,11 +39,7 @@
     "chalk": "^2.4.1",
     "standard": "^12.0.1"
   },
-  "bugs": {
-    "url": "https://github.com/bnb/bitandbang/issues"
-  },
-  "dependencies": {},
-  "publishConfig": {
-    "registry": "https://npm.registry.github.com/"
+  "dependencies": {
+
   }
 }
